@@ -264,10 +264,10 @@ const Index = () => {
                     layerStyle="formInput"
                     type="tel"
                     name="contact"
-                    pattern="^(8|9)(\d{7})$"
-                    maxLength="8"
-                    minLength="8"
-                    required
+                    pattern="^(2|9)(\d{9})$"
+                    maxLength="10"
+                    minLength="10"
+                    not required
                     title="Mobile number should be an 8 digit Singapore number i.e. 8xxxxxxx"
                   />
                 </>}
