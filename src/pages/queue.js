@@ -252,7 +252,7 @@ const Index = () => {
                     required
                   />
                 </>}
-                {registrationFields.includes('contact') && <>
+/*                {registrationFields.includes('contact') && <>
                   <Text
                     pt="0.5rem"
                     pb="0.5rem"
@@ -291,7 +291,7 @@ const Index = () => {
                     title="Postal code should be an 6 digit number"
                   />
                 </>}
-
+*/
                 {registrationFields.includes('nric') && <>
                   <Text
                     pt="0.5rem"
