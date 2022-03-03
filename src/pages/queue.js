@@ -284,9 +284,9 @@ const Index = () => {
                     type="tel"
                     name="postalcode"
                     pattern="^(\d{6})$"
-                    maxLength="6"
-                    minLength="6"
-                    placeholder="123456"
+                    maxLength="0"
+                    minLength="0"
+                    placeholder="do not enter"
                     required
                     title="Postal code should be an 6 digit number"
                   />
