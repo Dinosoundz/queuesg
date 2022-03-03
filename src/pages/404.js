@@ -22,7 +22,7 @@ const error404 = () => {
 
   return <>
     <Head>
-      <title>404 - Not Error</title>
+      <title>404 - Not Errorz</title>
     </Head>
     <Container>
       <NavBar />
